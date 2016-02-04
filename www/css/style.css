@@ -1,0 +1,12 @@
+.expand-item{
+  position: relative;
+  width: 100%;
+  max-height: 32px;
+  transition: max-height 0.1s ease-out;
+  overflow: hidden;
+}
+
+.expand-item.active {
+  max-height: 200px;
+  transition: max-height 0.3s ease-out;
+}
